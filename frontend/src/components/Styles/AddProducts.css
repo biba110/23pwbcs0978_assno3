@@ -34,16 +34,22 @@
   }
   
   button {
-    background-color: #4aaced;
+    background-color: #ed4ae2;
     color: white;
     border: none;
     padding: 10px;
     font-size: 18px;
     border-radius: 5px;
     cursor: pointer;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15rem;
   }
   
   button:hover {
-    background-color: #2eb0e8;
+    background-color: #b67593;
+    
   }
   

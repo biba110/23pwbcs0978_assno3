@@ -39,9 +39,8 @@ function AddProduct({ setProducts }) {
 
   return (
     <div className="add-product-container">
-      <h1>Add New Product</h1>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Product Title</label>
+        <label htmlFor="title">ENTER NAME</label>
         <input
           type="text"
           id="title"
@@ -52,7 +51,7 @@ function AddProduct({ setProducts }) {
           required
         />
 
-        <label htmlFor="price">Price</label>
+        <label htmlFor="price">PRICE</label>
         <input
           type="number"
           id="price"
@@ -63,7 +62,7 @@ function AddProduct({ setProducts }) {
           required
         />
 
-        <label htmlFor="description">Description</label>
+        <label htmlFor="description">DESCRIPTION</label>
         <textarea
           id="description"
           name="description"
@@ -74,7 +73,7 @@ function AddProduct({ setProducts }) {
         ></textarea>
 
         <button type="submit" className="add-button">
-          Add Product
+          ADD
         </button>
       </form>
     </div>
